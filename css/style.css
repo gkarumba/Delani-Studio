@@ -1,3 +1,4 @@
+/* HOME SECTION */
 .home{
     background-image: url("../img/backgrounds/h_img.jpg");
     background-size: cover;
@@ -16,3 +17,15 @@
 .parag{
     margin-bottom: 190px;
 } 
+/* ABOUT US SECTION */
+.about-us{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.title-3{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    
+}

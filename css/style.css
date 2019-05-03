@@ -11,10 +11,8 @@
     overflow-y: hidden;
     padding-top: 170px;
     color: #FEFEFC;
+    text-transform: uppercase;
 }
 .parag{
     margin-bottom: 190px;
 } 
-/* .mouse{
-    top:500px
-} */

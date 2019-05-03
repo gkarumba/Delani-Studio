@@ -55,3 +55,27 @@
     text-align: center;
     text-transform: uppercase;
 }
+/* PORTFOLIO SECTION  */
+.portfolio-title{
+    display: flex;
+    text-align: center;
+    justify-content:center;
+}
+.portfolio-image{
+    display: flex;
+    justify-content: center;
+    /* padding:0;
+    margin: 0; */
+}
+.gallery-line-1 img{
+    width: 225px;
+    height: 200px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.gallery-line-2 img{
+    width: 225px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+}

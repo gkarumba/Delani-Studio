@@ -27,7 +27,6 @@
     text-transform: uppercase;
     font-size: 15px;
     font-weight: bold;
-    
 }
 /* SERVICES SECTION */
 .services{
@@ -45,4 +44,14 @@
 .title-4{
     text-transform: uppercase;
     font-weight: bold;
+}
+/* WHAT WE DO */
+.what-we-do-heading{
+    display: flex;
+    text-align: center;
+    justify-content:center;
+}
+.col-md-4{
+    text-align: center;
+    text-transform: uppercase;
 }

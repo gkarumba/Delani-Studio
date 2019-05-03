@@ -29,3 +29,20 @@
     font-weight: bold;
     
 }
+/* SERVICES SECTION */
+.services{
+    background-image: url("../img/backgrounds/s_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height:350px;
+    padding-top:120px; 
+    color: #FEFEFC;
+}
+.title-4{
+    text-transform: uppercase;
+    font-weight: bold;
+}

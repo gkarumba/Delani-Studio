@@ -84,19 +84,6 @@
     margin-left: 10px;
     margin-bottom: 10px;
 }
-/* }
-#work1{
-    background-image: url("../img/portfolio/work1.jpg")
-}
-#work2{
-    background-image: url("../img/portfolio/work2.jpg")
-}
-#work3{
-    background-image: url("../img/portfolio/work3.jpg")
-}
-#work4{
-    background-image: url("../img/portfolio/work4.jpg")
-}*/
 .imageContainer{
     position: relative;
     text-align: center;
@@ -108,7 +95,7 @@
     margin-top: 10px;
     margin-left: 10px;
 }
-.work1-div,.work2-div,.work3-div,.work4-div{
+.work1-div,.work2-div,.work3-div,.work4-div,.work5-div,.work6-div,.work7-div,.work8-div{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -117,12 +104,7 @@
     background: #FEFEFC;
     color: black;
 }
-.gallery-line-2 img{
-    width: 225px;
-    height: 200px;
-    margin-top: 10px;
-    margin-left: 10px;
-}
+
 /* CONTACT SECTION */
 .contact{
     background-image: url("../img/backgrounds/c_image.jpg");

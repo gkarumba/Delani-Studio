@@ -55,6 +55,15 @@
     text-align: center;
     text-transform: uppercase;
 }
+#design-info{
+    display: none;
+}
+#development-info{
+    display: none;
+}
+#product-info{
+    display: none;
+}
 /* PORTFOLIO SECTION  */
 .portfolio{
     margin-bottom: 40px;

@@ -96,6 +96,7 @@
     margin-left: 10px;
 }
 .work1-div,.work2-div,.work3-div,.work4-div,.work5-div,.work6-div,.work7-div,.work8-div{
+    display: none;
     position: absolute;
     top: 50%;
     left: 50%;

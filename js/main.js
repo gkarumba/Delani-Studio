@@ -1,4 +1,5 @@
 $(document).ready(function (){
+    //WHAT WE DO SECTION 
     $("#design").click(function (){
         $("#design").hide();
         $("#design-info").show();
@@ -22,5 +23,12 @@ $(document).ready(function (){
     $("#product-info").click(function (){
         $("#product-info").hide();
         $("#product").show();
+    });
+    // PORTFOLIO SECTION
+    ("#work1").hover(function () {
+        $("#work-p").show();
+    });
+    ("#work1").mouseleave(function () {
+        $("#work-p").hide();
     });
 })

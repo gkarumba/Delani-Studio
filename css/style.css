@@ -56,6 +56,9 @@
     text-transform: uppercase;
 }
 /* PORTFOLIO SECTION  */
+.portfolio{
+    margin-bottom: 40px;
+}
 .portfolio-title{
     display: flex;
     text-align: center;
@@ -78,4 +81,41 @@
     height: 200px;
     margin-top: 10px;
     margin-left: 10px;
+}
+/* CONTACT SECTION */
+.contact{
+    background-image: url("../img/backgrounds/c_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contact-title{
+    display: flex;
+    justify-content: center;
+    color: #FEFEFC;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.form-control::placeholder { 
+    color: white;
+}
+input[type=text]{
+    width:350px;
+    margin-bottom: 20px;
+    border: solid #FEFEFC 1px;
+    color: #FEFEFC;
+    background-color:transparent !important; 
+}
+.name{
+    margin-right: 50px;
+}
+textarea{
+    width: 600px;
+    border: solid #FEFEFC 1px;
+    background-color:transparent !important;
+}
+textarea::placeholder{
+    color: #FEFEFC;
 }

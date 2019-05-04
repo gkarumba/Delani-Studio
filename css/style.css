@@ -129,3 +129,10 @@ textarea::placeholder{
 .links-line img{
     margin: 10px;
 }
+/* FOOTER */
+footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}

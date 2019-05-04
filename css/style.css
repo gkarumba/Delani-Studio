@@ -140,10 +140,14 @@ textarea{
     width: 600px;
     border: solid #FEFEFC 1px;
     background-color:transparent !important;
-    margin-bottom: 90px;
+    margin-bottom: 20px;
+    color: #FEFEFC;
 }
 textarea::placeholder{
     color: #FEFEFC;
+}
+button{
+    margin-bottom: 90px;
 }
 /* LINKS SECTION */
 .links{

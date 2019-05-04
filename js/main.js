@@ -21,4 +21,10 @@ $(document).ready(function (){
             $("."+id+"-div").hide();
         });
     });
+    // POP UP AFTER SUBMITING
+    $("button").click(function(event){
+        var name = $("#name").val();
+        alert(name + " we have received your message. Thank you for reaching out to us. ");
+        event.preventDefault();
+    })
 });

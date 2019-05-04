@@ -24,7 +24,11 @@ $(document).ready(function (){
     // POP UP AFTER SUBMITING
     $("button").click(function(event){
         var name = $("#name").val();
-        alert(name + " we have received your message. Thank you for reaching out to us. ");
+        alert(name + " we have received your message. Thank you for reaching out to us.");
         event.preventDefault();
-    })
+    });
+    // RESET FORM
+    $("button").click(function(event){
+        $(".message")[0].reset();
+    });
 });

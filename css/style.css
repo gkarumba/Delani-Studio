@@ -119,15 +119,16 @@
     justify-content: center;
     color: #FEFEFC;
 }
-.form{
+form{
     display: flex;
     justify-content: center;
 }
 .form-control::placeholder { 
     color: white;
 }
-input[type=text]{
+input[type=text],[type=email]{
     width:350px;
+    height:30px;
     margin-bottom: 20px;
     border: solid #FEFEFC 1px;
     color: #FEFEFC;

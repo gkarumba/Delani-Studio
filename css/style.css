@@ -136,3 +136,23 @@ footer{
     justify-content: center;
     margin-bottom: 10px;
 }
+/* MEDIA QUERIES */
+@media only screen and (max-width: 768px){
+    .parag-services-1{
+        width: 550px;
+    }
+    .portfolio-image{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    input[type=text]{
+        width:200px;
+    }
+    .name{
+        margin-right: 5px;
+    }
+    textarea{
+        width: 450px;
+    }
+}

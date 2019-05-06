@@ -103,6 +103,7 @@
     transform: translate(-50%, -50%);
     border: #FEFEFC solid 2px;
     background: #FEFEFC;
+    opacity: 0.7;
     color: black;
 }
 

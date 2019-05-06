@@ -2,7 +2,7 @@
 
 ## Description
 This is a simple website that helps showcase about Delani-Studio and the projects it has done. The site offers any user the ability to subscribe to mailisting / send a feedback message.
-
+![homepage image](https://github.com/gkarumba/Delani-Studio/blob/gh-pages/img/delani-studios.png)
 ## Built By John Karumba
 
 ## Behavior Driven Development

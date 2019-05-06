@@ -17,7 +17,7 @@ This is a simple website that helps showcase about Delani-Studio and the project
 - The user can subscribe to maillisting/send a feedback message
 
 ## Live Site
-Can be accessed [here](https://gkarumba.github.io/TDelani-Studio/)
+Can be accessed [here](https://gkarumba.github.io/Delani-Studio/)
 
 ## Set_up and Installation
     1. Clone the repo to the local machine
@@ -34,4 +34,4 @@ Can be accessed [here](https://gkarumba.github.io/TDelani-Studio/)
     For any clarification or addition information, contact the author at gachegua@gmail.com
 
 ## License
-This software is Licensed under MIT license Copyright (2018) [gkarumba](https://opensource.org)
+This software is Licensed under MIT license Copyright (2018) [gkarumba](https://github.com/gkarumba/Delani-Studio/blob/gh-pages/LICENSE)

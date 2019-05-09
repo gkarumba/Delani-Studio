@@ -1,0 +1,190 @@
+/* HOME SECTION */
+.home{
+    background-image: url("../img/backgrounds/h_img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 650px;
+    overflow-y: hidden;
+    padding-top: 170px;
+    color: #FEFEFC;
+    text-transform: uppercase;
+}
+.parag{
+    margin-bottom: 190px;
+} 
+/* ABOUT US SECTION */
+.about-us{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.title-3{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+/* SERVICES SECTION */
+.services{
+    background-image: url("../img/backgrounds/s_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height:350px;
+    padding-top:120px; 
+    color: #FEFEFC;
+}
+.title-4{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* WHAT WE DO */
+.what-we-do-heading{
+    display: flex;
+    text-align: center;
+    justify-content:center;
+}
+.col-md-4{
+    text-align: center;
+    text-transform: uppercase;
+}
+#design-info{
+    display: none;
+}
+#development-info{
+    display: none;
+}
+#product-info{
+    display: none;
+}
+/* PORTFOLIO SECTION  */
+.portfolio{
+    margin-bottom: 40px;
+}
+.portfolio-title{
+    display: flex;
+    text-align: center;
+    justify-content:center;
+}
+.portfolio-image{
+    display: flex;
+    justify-content: center;
+}
+.gallery-line-1 .imageContainer{
+    display: inline-block;
+    width: 225px;
+    height: 200px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.imageContainer{
+    position: relative;
+    text-align: center;
+    color: #FEFEFC;
+}
+.imageContainer img{
+    width: 225px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.work1-div,.work2-div,.work3-div,.work4-div,.work5-div,.work6-div,.work7-div,.work8-div{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: #FEFEFC solid 2px;
+    background: #FEFEFC;
+    opacity: 0.7;
+    color: black;
+}
+
+/* CONTACT SECTION */
+.contact{
+    background-image: url("../img/backgrounds/c_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 40px;
+}
+.contact-title{
+    display: flex;
+    justify-content: center;
+    color: #FEFEFC;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+.form-control::placeholder { 
+    color: white;
+}
+input[type=text],[type=email]{
+    width:350px;
+    height:30px;
+    margin-bottom: 20px;
+    border: solid #FEFEFC 1px;
+    color: #FEFEFC;
+    background-color:transparent !important; 
+}
+.name{
+    margin-right: 50px;
+}
+textarea{
+    width: 600px;
+    border: solid #FEFEFC 1px;
+    background-color:transparent !important;
+    margin-bottom: 20px;
+    color: #FEFEFC;
+}
+textarea::placeholder{
+    color: #FEFEFC;
+}
+button{
+    margin-bottom: 90px;
+}
+/* LINKS SECTION */
+.links{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.links-line img{
+    margin: 10px;
+}
+/* FOOTER */
+footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+/* MEDIA QUERIES */
+@media only screen and (max-width: 768px){
+    .parag-services-1{
+        width: 550px;
+    }
+    .portfolio-image{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    input[type=text]{
+        width:200px;
+    }
+    .name{
+        margin-right: 5px;
+    }
+    textarea{
+        width: 450px;
+    }
+}
